@@ -910,8 +910,14 @@
 						DevelopmentTeam = L7YNDPLSEB;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -1704,7 +1710,7 @@
 				CODE_SIGN_ENTITLEMENTS = ChainReactApp/ChainReactApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = L7YNDPLSEB;
 				HEADER_SEARCH_PATHS = (
@@ -1729,7 +1735,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = red.infinite.chainreactapp;
 				PRODUCT_NAME = ChainReactApp;
-				PROVISIONING_PROFILE = "b159c94c-9fc0-4a93-b12e-d20c9c1688a3";
+				PROVISIONING_PROFILE = "8e816e6f-6970-4718-b42b-d76a61975a8c";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore red.infinite.chainreactapp";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1743,7 +1749,7 @@
 				CODE_SIGN_ENTITLEMENTS = ChainReactApp/ChainReactApp.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = L7YNDPLSEB;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1767,7 +1773,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = red.infinite.chainreactapp;
 				PRODUCT_NAME = ChainReactApp;
-				PROVISIONING_PROFILE = "b159c94c-9fc0-4a93-b12e-d20c9c1688a3";
+				PROVISIONING_PROFILE = "8e816e6f-6970-4718-b42b-d76a61975a8c";
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore red.infinite.chainreactapp";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
